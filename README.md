@@ -6,7 +6,7 @@
 ## Roadmap
 - **Introduction to Basic Algorithms** 
   - [Classic sorting algorithms](sorting_algos.md)
-  - Classic data structures.
+  - [Classic data structures](data_structures.md)
   
 - **How to Analyze Algorithms**
   - Growth of functions
