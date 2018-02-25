@@ -1,7 +1,7 @@
 # Journey Log & Porgress Tracking
 
 ## Textbook
-- [Introduction to Algorithms, 3rd edition](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844).
+- [Introduction to Algorithms, 3rd edition](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) ([pdf](http://ressources.unisciel.fr/algoprog/s00aaroot/aa00module1/res/%5BCormen-AL2011%5DIntroduction_To_Algorithms-A3.pdf))
 
 ## Roadmap
 - **Introduction to Basic Algorithms** 
