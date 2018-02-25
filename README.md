@@ -15,6 +15,7 @@
 ## Log
 
 ### 02/24/2018 Sunday
-- Discuss the roadmap and the goal to achieve. 
-- Get prepared for the mindset.
-- Get familiar with the tools and materials.
+- Discussed the roadmap and the goal to achieve. 
+- Got prepared for the mindset.
+- Got familiar with the tools and materials.
+- Introduced several basic data structures.
