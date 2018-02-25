@@ -5,7 +5,7 @@
 
 ## Roadmap
 - **Introduction to Basic Algorithms** 
-  - [Classic sorting algorithms](sorting_algo.md)
+  - [Classic sorting algorithms](sorting_algos.md)
   - Classic data structures.
   
 - **How to Analyze Algorithms**
