@@ -36,20 +36,20 @@ def findDuplicate(nums):
         b = list(set(nums))
         c = []
 
-        # for n_b in b:
-        #         cnt = 0
-        #         print "Iterate b, n_b: ", n_b
-        #         for n_a in a:
-        #                 print "\tinterate a, n_a:", n_a
-        #                 if n_b == n_a:
-        #                         cnt += 1
-        #                         print "\tn_a == n_b, cnt updated to:", cnt
-        #         if cnt > 1:
-        #                 print "cnt > 1, update c:"
-        #                 c.append(n_a)
-        #                 print "c becomes: ", c
-        # return c
-        ### Please write your code inside ###
+        for n_b in b:
+                cnt = 0
+                print "Iterate b, n_b: ", n_b
+                for n_a in a:
+                        print "\tinterate a, n_a:", n_a
+                        if n_b == n_a:
+                                cnt += 1
+                                print "\tn_a == n_b, cnt updated to:", cnt
+                if cnt > 1:
+                        print "cnt > 1, update c:"
+                        c.append(n_a)
+                        print "c becomes: ", c
+        return c
+        ## Please write your code inside ###
 
 
 
