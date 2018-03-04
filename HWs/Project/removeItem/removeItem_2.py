@@ -21,19 +21,26 @@ def removeElement(nums, val):
         :type val: int
         :rtype: int
         """
-        ### Please write your code inside ###
+    ### Please write your code inside ###
+    # [2, 2, 3]
+    #  |     _
+    nums.sort()
+    end_index = -1
+    current_index = 0
+    while (current_index < len(nums) + end_index):
+        if (nums[current_index] == val):
+            # Swap values from current and end index
+            nums[current_index], nums[end_index] = nums[end_index], nums[current_index]
+            # Update current and end values
+            current_index += 1
+            end_index -= 1
+        else:
+            current_index += 1
 
-    ans = []
+    return current_index
 
-    #O(n)
-    for l_val in nums:
-        if (l_val != val):
-            ans.append(l_val)
-            
-    return len(ans)
 
-        ### Please write your code inside ###
-
+    ### Please write your code inside ###
 
 
 # nums: [1,2,1]
