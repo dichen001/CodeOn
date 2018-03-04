@@ -20,13 +20,11 @@ def containsDuplicate(nums):
         :rtype: bool
         """
         ### Please write your code inside ###
+        "In stead of using our previous solution, try if you could solve it in one line :)"
 
-
-
-
-
-
-
+        "Hint1: using len()"
+        "Hint2: using set()"
+        "Hint3: Final code should look like 'return xxx != yyy' "
 
         ### Please write your code inside ###
 

@@ -63,4 +63,4 @@ if __name__ == '__main__':
                 print "-Your Output:"
                 print findDuplicate(test[0])
                 assert set(findDuplicate(test[0])) == set(test[1]), "Wrong return. Please try again."
-                print '\n**** Congratulations! You have passed all the tests! ****'
+        print '\n**** Congratulations! You have passed all the tests! ****'
