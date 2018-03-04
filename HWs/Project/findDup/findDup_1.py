@@ -36,9 +36,13 @@ def findDuplicate(nums):
         b = list(set(nums))
         c = []
 
+        #completes in O(n^2)
+
+        #O(n)
         for n_b in b:
                 cnt = 0
                 print "Iterate b, n_b: ", n_b
+                #O(n)
                 for n_a in a:
                         print "\tinterate a, n_a:", n_a
                         if n_b == n_a:

@@ -23,6 +23,7 @@ def containsDuplicate(nums):
 
     d_hash = {}
 
+    #O(n)
     for n in nums:
         if (not d_hash.get(n, False)):
             d_hash[n] = 1
