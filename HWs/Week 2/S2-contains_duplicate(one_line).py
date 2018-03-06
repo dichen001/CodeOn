@@ -26,7 +26,13 @@ def containsDuplicate(nums):
         # "Hint2: using set()"
         # "Hint3: Final code should look like 'return xxx != yyy' "
 
-
+        storage = {}
+        for num_val in nums:
+            if (not storage.get(num_val, False)):
+                storage[num_val] = 1
+            else:
+                return True
+        return False
         ### Please write your code inside ###
 
 
