@@ -10,7 +10,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="S2-counter.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week 2/S2-counter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="S2-remove_element(read&amp;understand).py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 2/S2-remove_element(read&amp;understand).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="S2-contains_duplicate(one_line).py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 2/S2-contains_duplicate(one_line).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,6 +60,8 @@
         <option value="$PROJECT_DIR$/Project/findDup/findDup_2.py" />
         <option value="$PROJECT_DIR$/Project/removeItem/removeItem.py" />
         <option value="$PROJECT_DIR$/Project/removeItem/removeItem_2.py" />
+        <option value="$PROJECT_DIR$/Week 2/S2-counter.py" />
+        <option value="$PROJECT_DIR$/Week 2/S2-contains_duplicate(one_line).py" />
       </list>
     </option>
   </component>
@@ -52,8 +85,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -61,14 +92,21 @@
               <item name="HWs" type="b2602c69:ProjectViewProjectNode" />
               <item name="HWs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HWs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HWs" type="462c0819:PsiDirectoryNode" />
+              <item name="Week 2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -88,38 +126,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.removeItem_2">
-    <configuration name="containsDup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.S2-counter">
+    <configuration name="S2-contains_duplicate(one_line)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/containsDup" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week 2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HWs" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/containsDup/containsDup_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week 2/S2-contains_duplicate(one_line).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="containsDup_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="S2-counter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/containsDup" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week 2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HWs" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/containsDup/containsDup_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week 2/S2-counter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,19 +218,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.containsDup" />
-      <item index="1" class="java.lang.String" itemvalue="Python.containsDup_2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.findDup_2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.removeItem" />
-      <item index="4" class="java.lang.String" itemvalue="Python.removeItem_2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.findDup_2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.removeItem" />
+      <item index="2" class="java.lang.String" itemvalue="Python.removeItem_2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.S2-counter" />
+      <item index="4" class="java.lang.String" itemvalue="Python.S2-contains_duplicate(one_line)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.removeItem_2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.removeItem" />
-        <item index="2" class="java.lang.String" itemvalue="Python.findDup_2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.containsDup_2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.containsDup" />
+        <item index="0" class="java.lang.String" itemvalue="Python.S2-counter" />
+        <item index="1" class="java.lang.String" itemvalue="Python.S2-contains_duplicate(one_line)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.removeItem_2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.removeItem" />
+        <item index="4" class="java.lang.String" itemvalue="Python.findDup_2" />
       </list>
     </recent_temporary>
   </component>
@@ -213,12 +251,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="805" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24270834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31320226" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31320226" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18162619" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -270,7 +308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -278,7 +315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -336,10 +372,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/March 4 Week/S1-remove_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/March 4 Week/removeItem/removeItem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/March 4 Week/findDup/findDup_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/March 4 Week/containsDup/containsDup_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="291">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/March 4 Week/removeItem/removeItem_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/March 4 Week/findDup/findDup_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -351,42 +426,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/March 4 Week/findDup/findDup_1.py">
+    <entry file="file://$PROJECT_DIR$/Week 2/S2-contains_duplicate(one_line).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        <state relative-caret-position="272">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/March 4 Week/S1-remove_element.py">
+    <entry file="file://$PROJECT_DIR$/Week 2/S2-remove_element(read&amp;understand).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="646">
+          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/March 4 Week/findDup/findDup_2.py">
+    <entry file="file://$PROJECT_DIR$/Week 2/S2-counter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/March 4 Week/removeItem/removeItem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/March 4 Week/removeItem/removeItem_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        <state relative-caret-position="187">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding />
         </state>
       </provider>
