@@ -15,11 +15,32 @@ example 2: given nums=[1,2,1], and k = 0 or 1, always return False.
 def containsNearbyDuplicate(nums, k):
     """
     :type nums: List[int]
-    :type k: int
+    :type index: int
     :rtype: bool
     """
     ### Please write your code inside ###
-    "Hint: use dictionary"
+    #"Hint: use dictionary"
+
+    # Storage of extra values
+    dups = {}
+    # Loop through list
+    for index, numVal in enumerate(nums):
+        # Check if the index is already in the dictionary
+        # If it is not, add it to the dictionary with a key of the current
+        # List index
+        if (not dups.get(numVal, False)):
+            # Key is the list index
+            dups[numVal] = index
+        else:
+            # Otherwise, if the value is already in the dictionary,
+            # See if the distance from the current value to the last previous value
+            # Is less than or equal to the maximum distance
+            if (index - dups.get(numVal) <= k):
+                # If it within range, return true
+                return True
+    # If it is not, and no other dup values are found,
+    # Return false
+    return False
 
 
 

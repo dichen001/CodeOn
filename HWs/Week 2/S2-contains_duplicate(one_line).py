@@ -27,6 +27,7 @@ def containsDuplicate(nums):
         # "Hint3: Final code should look like 'return xxx != yyy' "
 
         return len(set(nums)) != len(nums)
+
         ### Please write your code inside ###
 
 
