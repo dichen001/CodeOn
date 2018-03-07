@@ -16,7 +16,20 @@ def getCounter(nums):
         """
         ### Please write your code inside ###
 
+        hash = {}
 
+        # O(n)
+        for num_val in nums:
+            # If the number does not exist, add it to the list with
+            # with a repeat value of 1
+            if (not hash.get(num_val, False)):
+                hash[num_val] = 1
+            else:
+                # If the number does exist, increment the value in the
+                # Dictionary
+                hash[num_val] += 1
+
+        return hash
 
 
         ### Please write your code inside ###
