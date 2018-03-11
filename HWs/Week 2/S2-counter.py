@@ -22,7 +22,8 @@ def getCounter(nums):
         for num_val in nums:
             # If the number does not exist, add it to the list with
             # with a repeat value of 1
-            if (not hash.get(num_val, False)):
+            # if (not hash.get(num_val, False)):
+            if num_val not in hash:
                 hash[num_val] = 1
             else:
                 # If the number does exist, increment the value in the
