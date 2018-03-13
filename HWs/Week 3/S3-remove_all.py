@@ -17,16 +17,16 @@ def removeElements(head, val):
     """
     # Please write your code inside
 
-    lArray = getLinkedList(head)
-    lNewArray = []
+    node = head
+    prevNode = None
 
-    for lVal in lArray:
-        if lVal != val:
-            lNewArray.append(lVal)
+    tempList = []
+    while node:
+        if node.val != val:
+            tempList.append(node.val)
+        node = node.next
 
-    ll = createLinkedList(lNewArray)
-
-    return ll
+    return createLinkedList(tempList)
 
     # Please write your code inside
 
