@@ -6,7 +6,7 @@ Given 1->1->2, return 1->2.
 Given 1->1->2->3->3, return 1->2->3.
 """
 
-from helpers import Node, getLinkedList, creatLinkedList
+from helpers import Node, getLinkedList, createLinkedList
 
 # Definition for singly-linked list.
 class ListNode(object):
@@ -50,7 +50,7 @@ if __name__ == '__main__':
                 print "-Expected Output:"
                 print test[1]
                 print "-Your Output:"
-                head = creatLinkedList(test[0])
+                head = createLinkedList(test[0])
                 your_head = deleteDuplicates(head)
                 your_ans = getLinkedList(your_head)
                 print your_ans

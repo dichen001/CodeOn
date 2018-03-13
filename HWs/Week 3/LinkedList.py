@@ -44,12 +44,3 @@ class LinkedList:
             else:
                 pre = cur
                 cur = cur.next
-
-ll = LinkedList()
-ll.remove(1)
-ll.head = Node(1)
-ll.ins(Node(2))
-ll.ins(Node(3))
-
-#ll.remove(3)
-ll.printll()

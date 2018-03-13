@@ -19,7 +19,7 @@ def getLinkedList(head):
     return nums
 
 # Given a list of numbers, convert the given list into a linked list.
-def creatLinkedList(nums):
+def createLinkedList(nums):
     pre = Node()
     node = pre
     for n in nums:

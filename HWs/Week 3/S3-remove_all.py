@@ -7,7 +7,7 @@ Return: 1 --> 2 --> 3 --> 4 --> 5
 
 """
 
-from helpers import Node, getLinkedList, creatLinkedList
+from helpers import Node, getLinkedList, createLinkedList
 
 def removeElements(head, val):
     """
@@ -15,12 +15,20 @@ def removeElements(head, val):
     :type val: int
     :rtype: Node
     """
-    ### Please write your code inside ###
+    # Please write your code inside
 
+    lArray = getLinkedList(head)
+    lNewArray = []
 
+    for lVal in lArray:
+        if lVal != val:
+            lNewArray.append(lVal)
 
+    ll = createLinkedList(lNewArray)
 
-    ### Please write your code inside ###
+    return ll
+
+    # Please write your code inside
 
 
 
@@ -42,7 +50,7 @@ if __name__ == '__main__':
                 print "-Expected Output:"
                 print test[2]
                 print "-Your Output:"
-                head = creatLinkedList(test[0])
+                head = createLinkedList(test[0])
                 val = test[1]
                 your_head = removeElements(head, val)
                 your_ans = getLinkedList(your_head)

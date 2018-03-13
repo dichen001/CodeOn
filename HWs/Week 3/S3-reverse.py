@@ -8,7 +8,7 @@ Input: 1
 Output: 1
 """
 
-from helpers import Node, getLinkedList, creatLinkedList
+from helpers import Node, getLinkedList, createLinkedList
 import random
 def reverseList(head):
         """
@@ -46,7 +46,7 @@ if __name__ == '__main__':
                 print "-Expected Output:"
                 print test[1]
                 print "-Your Output:"
-                head = creatLinkedList(test[0])
+                head = createLinkedList(test[0])
                 your_head = reverseList(head)
                 your_ans = getLinkedList(your_head)
                 print your_ans
