@@ -18,16 +18,19 @@ def removeElements(head, val):
     # Please write your code inside
 
     node = head
-    prevNode = None
+    prevNode = head
 
-    tempList = []
+    if node == val:
+        node = node.next
+        prevNode = node
+
     while node:
-        if node.val != val:
-            tempList.append(node.val)
+        if node.val == val:
+            prevNode.next = node.next
+        prevNode = node
         node = node.next
 
-    return createLinkedList(tempList)
-
+    return head
     # Please write your code inside
 
 
