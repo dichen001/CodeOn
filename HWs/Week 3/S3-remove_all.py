@@ -17,16 +17,19 @@ def removeElements(head, val):
     """
     # Please write your code inside
 
-    node = head
-    prevNode = head
+    prevNode = None
 
-    if node == val:
-        node = node.next
-        prevNode = node
+    # delete all if the begining node values are the same as the target val.
+    while head and head.val == val:
+        head = head.next
+
+    node = head
 
     while node:
         if node.val == val:
             prevNode.next = node.next
+            # added the following line
+            node = prevNode
         prevNode = node
         node = node.next
 
