@@ -11,31 +11,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="helpers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 3/helpers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="S3-remove_all.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="S3-remove_all.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 3/S3-remove_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state relative-caret-position="272">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 3/LinkedList.py">
+      <file leaf-file-name="S3-remove_duplicates.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week 3/S3-remove_duplicates.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+            <state relative-caret-position="510">
+              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -69,6 +59,7 @@
         <option value="$PROJECT_DIR$/Week 3/LinkedList.py" />
         <option value="$PROJECT_DIR$/Week 3/helpers.py" />
         <option value="$PROJECT_DIR$/Week 3/S3-remove_all.py" />
+        <option value="$PROJECT_DIR$/Week 3/S3-remove_duplicates.py" />
       </list>
     </option>
   </component>
@@ -92,8 +83,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,6 +104,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.S3-remove_all">
+  <component name="RunManager" selected="Python.S3-remove_duplicates">
     <configuration name="LinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,24 +161,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HWs" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week 3/Remove-Element-P2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="S2-contains_duplicate-nearby" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week 2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HWs" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week 2/S2-contains_duplicate-nearby.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,20 +202,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="S3-remove_duplicates" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week 3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HWs" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week 3/S3-remove_duplicates.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.S2-contains_duplicate-nearby" />
-      <item index="1" class="java.lang.String" itemvalue="Python.S2-remove_element(read&amp;understand)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Remove-Element-P2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.LinkedList" />
-      <item index="4" class="java.lang.String" itemvalue="Python.S3-remove_all" />
+      <item index="0" class="java.lang.String" itemvalue="Python.S2-remove_element(read&amp;understand)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Remove-Element-P2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.LinkedList" />
+      <item index="3" class="java.lang.String" itemvalue="Python.S3-remove_all" />
+      <item index="4" class="java.lang.String" itemvalue="Python.S3-remove_duplicates" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.S3-remove_all" />
-        <item index="1" class="java.lang.String" itemvalue="Python.LinkedList" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Remove-Element-P2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.S2-remove_element(read&amp;understand)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.S2-contains_duplicate-nearby" />
+        <item index="0" class="java.lang.String" itemvalue="Python.S3-remove_duplicates" />
+        <item index="1" class="java.lang.String" itemvalue="Python.S3-remove_all" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LinkedList" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Remove-Element-P2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.S2-remove_element(read&amp;understand)" />
       </list>
     </recent_temporary>
   </component>
@@ -292,14 +283,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week 3/LinkedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week 3/Remove-Element-P2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -625,7 +608,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 3/LinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
+        <state relative-caret-position="714">
           <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding />
         </state>
@@ -641,8 +624,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 3/S3-remove_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        <state relative-caret-position="272">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 3/S3-remove_duplicates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding />
         </state>
       </provider>

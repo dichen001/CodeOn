@@ -22,8 +22,20 @@ def deleteDuplicates(head):
     """
     ### Please write your code inside ###
 
+    storage = {}
 
+    node = head
+    while node:
+        if not storage.get(node.val, False):
+            storage[node.val] = 1
+        else:
+            prevNode.next = node.next
+            node = prevNode
 
+        prevNode = node
+        node = node.next
+
+    return head
 
     ### Please write your code inside ###
 

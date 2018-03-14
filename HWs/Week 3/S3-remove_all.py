@@ -18,7 +18,6 @@ def removeElements(head, val):
     # Please write your code inside
 
     prevNode = None
-
     # delete all if the begining node values are the same as the target val.
     while head and head.val == val:
         head = head.next
