@@ -26,7 +26,7 @@ def deleteDuplicates(head):
 
     node = head
     while node:
-        if not storage.get(node.val, False):
+        if node.val not in storage:
             storage[node.val] = 1
         else:
             prevNode.next = node.next
