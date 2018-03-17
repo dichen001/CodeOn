@@ -18,8 +18,17 @@ def reverseList(head):
         ### Please write your code inside ###
 
 
+        # I was having trouble with the problem, so I searched up some answeres online
 
+        # I found this one that seems to work but I still cant understand the explanations
+        new_head = None  # this is where we build the reversed list (reusing the existing nodes)
+        while head:
+            temp = head  # temp is a reference to a node we're moving from one  list to the other
+            head = temp.next  # the first two assignments pop the node off the front of the list
+            temp.next = new_head  # the next two make it the new head of the reversed list
+            new_head = temp
 
+        return new_head
         ### Please write your code inside ###
 
 
