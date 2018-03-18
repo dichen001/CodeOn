@@ -17,7 +17,16 @@ def single_number(nums):
     Hint: use dictionary
     """
 
+    storage = {}
 
+    for c_val in nums:
+        if (not storage.get(c_val, False)):
+            storage[c_val] = 1
+        else:
+            storage[c_val] += 1
+    for val in storage:
+        if storage[val] == 1:
+            return val
 
 
 """
