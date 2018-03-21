@@ -19,6 +19,38 @@ def valid_parentheses(s):
           This has 2 more types need to take care.
     """
 
+    # for ()
+    p_stack = []
+    # for {}
+    c_stack = []
+    # for []
+    b_stack = []
+
+    for c_val in s:
+        if (c_val == "("):
+            p_stack += "("
+        if (c_val == "["):
+            b_stack += "["
+        if (c_val == "{"):
+            c_stack += "{"
+
+        if (c_val == ")"):
+            if (len(p_stack) == 0):
+                return False
+            p_stack.pop()
+        if (c_val == "]"):
+            if (len(b_stack) == 0):
+                return False
+            b_stack.pop()
+        if (c_val == "}"):
+            if (len(c_stack) == 0):
+                return False
+            c_stack.pop()
+
+    if (len(p_stack) == 0 and len(c_stack) == 0 and len(b_stack) == 0):
+        return True
+    else:
+        return False
 
 
 
