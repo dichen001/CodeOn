@@ -17,15 +17,12 @@ def two_sum(nums, target):
     :rtype: List[int]
     """
 
-    ans = []
-    d = {}
+    storage = {}
     for indx, c_val in enumerate(nums):
-        tVal = target - c_val
-        if (not d.get(tVal, False)):
-            d[tVal] = indx
-        else:
-            ans.append(indx, d[tVal])
-    return ans
+        tVal = target-c_val
+        if (tVal in storage):
+            return [storage[tVal], indx]
+        storage[c_val] = indx
 
 
 """
