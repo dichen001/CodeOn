@@ -15,6 +15,15 @@ def intersection(nums1, nums2):
     """
 
     ### Please start your code here###
+    ans = []
+    addedNums = {}
+    for c_val in nums1:
+        for c_val2 in nums2:
+            if (c_val == c_val2):
+                if (not c_val in addedNums):
+                    addedNums[c_val] = 1
+                    ans.append(c_val)
+    return ans
 
 
     ### End ###

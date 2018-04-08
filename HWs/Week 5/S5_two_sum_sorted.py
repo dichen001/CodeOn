@@ -23,6 +23,12 @@ def twoSumSorted(numbers, target):
 
     ### Please start your code here###
 
+    storage = {}
+    for indx, cval in enumerate(numbers):
+        tval = target - cval
+        if (tval in storage):
+            return [storage[tval]+1, indx+1]
+        storage[cval] = indx
 
     ### End ###
 

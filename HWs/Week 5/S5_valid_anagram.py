@@ -16,6 +16,12 @@ def isAnagram(s, t):
 
     ### Please start your code here###
 
+    # Target value
+    for tval in t:
+        if (not tval in s):
+            return False
+    return True
+
 
     ### End ###
 
