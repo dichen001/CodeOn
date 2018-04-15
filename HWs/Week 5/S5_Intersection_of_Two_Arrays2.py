@@ -14,17 +14,14 @@ def intersection(nums1, nums2):
     :rtype: List[int]
     """
 
-    ### Please start your code here###
+    #Updated File
     ans = []
-    addedNums = {}
-    for c_val in nums1:
-        for c_val2 in nums2:
-            if (c_val == c_val2):
-                if (not c_val in addedNums):
-                    addedNums[c_val] = 1
-                    ans.append(c_val)
-                    print "Hi"
+    sNums = set(nums2)
+    for cval in nums1:
+        if cval in sNums and not cval in ans:
+            ans.append(cval)
     return ans
+
 
 
     ### End ###

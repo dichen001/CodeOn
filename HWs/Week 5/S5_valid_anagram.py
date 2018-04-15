@@ -16,11 +16,18 @@ def isAnagram(s, t):
 
     ### Please start your code here###
 
-    # Target value
-    for tval in t:
-        if (not tval in s):
+    letterCtr = {}
+    for sVals in s:
+        if sVals in letterCtr:
+            letterCtr[sVals] += 1
+        if not sVals in letterCtr:
+            letterCtr[sVals] = 1
+    for key, val in letterCtr.iteritems():
+        if not t.count(key) == val:
             return False
     return True
+
+
 
 
     ### End ###
