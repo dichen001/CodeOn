@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b0c7d66-4600-4e6e-8840-43f080e62ddb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/HWs/Week 6/Insert_Sort.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HWs/Week 6/Queue.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/HWs/Week 6/Double_Queue.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/HWs/Week 5/BinarySearch_File.py" afterPath="$PROJECT_DIR$/HWs/Week 5/BinarySearch_File.py" />
+      <change beforePath="$PROJECT_DIR$/HWs/Week 6/Queue.py" afterPath="$PROJECT_DIR$/HWs/Week 6/Single_Queue.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
-      <file leaf-file-name="Queue.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HWs/Week 6/Queue.py">
+      <file leaf-file-name="Single_Queue.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HWs/Week 6/Single_Queue.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Double_Queue.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HWs/Week 6/Double_Queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -52,6 +61,7 @@
         <option value="$PROJECT_DIR$/HWs/Week 5/BubbleSort_HW.py" />
         <option value="$PROJECT_DIR$/HWs/Week 6/Insert_Sort.py" />
         <option value="$PROJECT_DIR$/HWs/Week 6/Queue.py" />
+        <option value="$PROJECT_DIR$/HWs/Week 6/Double_Queue.py" />
       </list>
     </option>
   </component>
@@ -305,7 +315,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HWs/Week 6/Queue.py">
+    <entry file="file://$PROJECT_DIR$/HWs/Week 6/Single_Queue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -401,10 +411,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HWs/Week 6/Queue.py">
+    <entry file="file://$PROJECT_DIR$/HWs/Week 6/Single_Queue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HWs/Week 6/Double_Queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
