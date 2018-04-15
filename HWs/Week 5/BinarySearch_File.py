@@ -10,6 +10,7 @@ def findVal(target):
         if (ls[mid] == target):
             return mid
         # if the middle value is not equal to the target
+        #Move the middle size of the array accordingly
         if (ls[mid] > target):
             right = mid
         else:
