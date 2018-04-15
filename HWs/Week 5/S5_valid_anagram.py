@@ -35,7 +35,8 @@ if __name__ == '__main__':
         test1 = ("rat","tar", True)
         test2 = ("sdfd","d987", False)
         test3 = ("23ss","ii", False)
-        tests = [test0, test1, test2, test3]
+        test4 = ("rat","rt", False)
+        tests = [test0, test1, test2, test3, test4]
         for i, test in enumerate(tests):
                 print("------------- Test " +str(i) + " -------------")
                 print("-Test Input:")
@@ -45,6 +46,7 @@ if __name__ == '__main__':
                 print("-Your Output:")
                 your_ans = isAnagram(test[0], test[1])
                 print(your_ans)
-                assert (your_ans == test[2] or your_ans[::-1] == test[2]), "Wrong return. Please try again."
+                print(test[2])
+                assert your_ans == test[2], "Wrong return. Please try again."
         print('\n**** Congratulations! You have passed all the tests! ****')
 
