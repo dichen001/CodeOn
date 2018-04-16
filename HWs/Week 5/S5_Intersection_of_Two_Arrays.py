@@ -23,7 +23,6 @@ def intersection(nums1, nums2):
                 if (not c_val in addedNums):
                     addedNums[c_val] = 1
                     ans.append(c_val)
-                    print "Hi"
     return ans
 
 

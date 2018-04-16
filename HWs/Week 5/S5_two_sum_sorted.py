@@ -12,8 +12,9 @@ you may not use the same element twice.
 Input: numbers={2, 7, 11, 15}, target=9
 Output: index1=1, index2=2
 """
+
 #Import binary search file
-import BinarySearch
+import BinarySearch_File
 def twoSumSorted(numbers, target):
     """
     :param numbers: list
@@ -24,12 +25,20 @@ def twoSumSorted(numbers, target):
 
     ### Please start your code here###
 
-    storage = {}
+    # storage = {}
+    # for indx, cval in enumerate(numbers):
+    #     tval = target - cval
+    #     if (tval in storage):
+    #         return [storage[tval]+1, indx+1]
+    #     storage[cval] = indx
+
     for indx, cval in enumerate(numbers):
-        tval = target - cval
-        if (tval in storage):
-            return [storage[tval]+1, indx+1]
-        storage[cval] = indx
+        tVal = target - cval
+        print "...", tVal
+        foundVal = BinarySearch_File.findVal(numbers, tVal)
+        print "....", numbers[foundVal]
+        if numbers[foundVal] in numbers:
+            return [indx + 1, foundVal + 1]
     ### End ###
 
 

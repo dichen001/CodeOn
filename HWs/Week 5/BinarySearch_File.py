@@ -1,18 +1,20 @@
-ls = [1,2,5,7,10,20]
-
-# Find index of value
-def findVal(target):
-    left, right = 0, len(ls) - 1
+# Find a value with Binary search
+def findVal(ls, target):
+    # Opposite sides of the array
+    left = 0
+    right = len(ls)
     while left < right:
-        # The middle is equal to the center of right and mid
-        mid = (left+right) / 2
-        # Check the current middle value
-        if (ls[mid] == target):
+        mid = (left + right) / 2
+        val = ls[mid]
+        # Conditions
+        if target == val:
+            # The value we are looking for is in the middle
             return mid
-        # if the middle value is not equal to the target
-        #Move the middle size of the array accordingly
-        if (ls[mid] > target):
-            right = mid
-        else:
+        if target > val:
+            # The value is on the greater side of the middle
+            # Move the left side up to increase the middle
             left = mid
-    return False
+        if target < val:
+            # The value is on the smaller side of the middle
+            # Mode the right side down to decrease the middle
+            right = mid
