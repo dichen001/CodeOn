@@ -16,7 +16,14 @@ def intersect(nums1, nums2):
     """
    	### Please start your code here###
 
-		### End ###
+    ans=[]
+    sList = set(nums2)
+    for cval in nums1:
+        if cval in nums2:
+            ans.append(cval)
+    return ans
+
+    ### End ###
 
 """
 
