@@ -24,6 +24,8 @@ Input: [1,3,5,6], 0
 Output: 0
 
 """
+# Used to find the closest index an object can be placed
+# In an array (Index)
 
 def searchInsert(nums, target):
     """
@@ -33,6 +35,21 @@ def searchInsert(nums, target):
     """
     ### Please start your code here###
 
+    # Left and right sides of the array
+    left = 0
+    right = len(nums)-1
+
+    # The left index value should never pass the right
+    # If it does, that we have not found a target value
+    while left <= right:
+        # Here
+        mid = left+(right-left)/2
+        # Here
+        if nums[mid] >= target:
+            right = mid-1
+        else:
+            left = mid + 1
+    return left
 
 
     ### End ###
