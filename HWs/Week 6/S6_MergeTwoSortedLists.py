@@ -15,18 +15,19 @@ class ListNode(object):
     def __init__(self, x):
         self.val = x
         self.next = None
-def mergeTwoLists(l1, l2):
-		"""
-	  l1: ListNode
-	  l2: ListNode
-	  """
+def mergeTwoLists(h1, h2):
 
-    ### Please start your code here###
+    if h1 is None:
+        return h2
+    if h2 is None:
+        return h1
 
-
-
-    # ### End ###
-
+    if h1.val < h2.val:
+        h1.next = mergeTwoLists(h1.next, h2)
+        return h1
+    else:
+        h2.next = mergeTwoLists(h2.next, h1)
+        return h2
 
 """
 
