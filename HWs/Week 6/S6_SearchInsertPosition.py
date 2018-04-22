@@ -48,7 +48,7 @@ def searchInsert(nums, target):
         if nums[mid] >= target:
             right = mid-1
         else:
-            left = mid + 1
+            left = mid+1
     return left
 
 
