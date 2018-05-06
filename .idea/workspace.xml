@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b0c7d66-4600-4e6e-8840-43f080e62ddb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Class.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HWs/Week 7/S7_FindtheDifference.py" beforeDir="false" afterPath="$PROJECT_DIR$/HWs/Week 7/S7_FindtheDifference.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HWs/Week 7/S7_PlusOne.py" beforeDir="false" afterPath="$PROJECT_DIR$/HWs/Week 7/S7_PlusOne.py" afterDir="false" />
     </list>
@@ -23,8 +20,17 @@
       <file leaf-file-name="S7_FindtheDifference.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HWs/Week 7/S7_FindtheDifference.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+            <state relative-caret-position="462">
+              <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Recursive_Sum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HWs/Week 7/Recursive_Sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -67,10 +73,10 @@
         <option value="$PROJECT_DIR$/HWs/Week 6/S6_SearchInsertPosition.py" />
         <option value="$PROJECT_DIR$/HWs/Week 6/S6_MergeTwoSortedLists.py" />
         <option value="$PROJECT_DIR$/HWs/Week 6/S6_MergeTwoSortedLists2.py" />
-        <option value="$PROJECT_DIR$/HWs/Week 7/Recursive_Sum.py" />
         <option value="$PROJECT_DIR$/HWs/Week 7/Recursive_Fac.py" />
         <option value="$PROJECT_DIR$/HWs/Week 7/Recursive_FIb.py" />
         <option value="$PROJECT_DIR$/HWs/Week 7/S7_PlusOne.py" />
+        <option value="$PROJECT_DIR$/HWs/Week 7/Recursive_Sum.py" />
         <option value="$PROJECT_DIR$/HWs/Week 7/S7_FindtheDifference.py" />
       </list>
     </option>
@@ -571,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HWs/Week 7/Recursive_Sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HWs/Week 7/Recursive_FIb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -592,10 +591,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HWs/Week 7/Recursive_Sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HWs/Week 7/S7_FindtheDifference.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        <state relative-caret-position="462">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
         </state>
       </provider>
     </entry>

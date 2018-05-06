@@ -29,9 +29,15 @@ def findTheDifference(s, t):
     """
     ### Please start your code here ###
 
-    lsS = list(s)
+    if s == "" or t == "":
+        return ""
 
-    print ".....", lsS
+    lsS = list(s)
+    lsT = list(t)
+
+    for tval in lsT:
+        if tval not in lsS:
+            return tval
 
     ### End ###
 
