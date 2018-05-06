@@ -22,12 +22,16 @@ Explanation:
 
 
 def findTheDifference(s, t):
-      """
-      :type s: str
-      :type t: str
-      :rtype: str
-      """
+    """
+    :type s: str
+    :type t: str
+    :rtype: str
+    """
     ### Please start your code here ###
+
+    lsS = list(s)
+
+    print ".....", lsS
 
     ### End ###
 
