@@ -31,6 +31,18 @@ def plusOne(digits):
 
     ### Please start your code here ###
 
+    for c in reversed(range(len(digits))):
+        print "....", c
+        if digits[c] == 9:
+            digits[c] = 0
+        else:
+            digits[c] += 1
+            return digits
+
+    # A bit confused about this part
+    digits[0] = 1
+    digits.append(0)
+    return digits
 
     ### End ###
 

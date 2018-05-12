@@ -32,11 +32,11 @@ def findTheDifference(s, t):
     if s == "" or t == "":
         return ""
 
-    lsS = list(s)
-    lsT = list(t)
+    # = list(s)
+    #lsT = list(t)
 
-    for tval in lsT:
-        if tval not in lsS:
+    for tval in t:
+        if tval not in s:
             return tval
 
     ### End ###
